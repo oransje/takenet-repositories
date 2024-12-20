@@ -1,1 +1,1 @@
-env $(cat .env.dev | xargs) nodemon index.js
+env $(cat .env.dev | xargs) node --watch index.js
