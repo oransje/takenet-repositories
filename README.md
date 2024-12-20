@@ -11,7 +11,8 @@ This projects requires Node.js version greather or equal than 22. If you meet th
 2. First you need to set an github api key, then stores it on the environment file;
 3. Change NODE_ENV to `development` or `production` as you want. Note that if you want to set development you have to set ./Api/.env.dev file;
 4. Set a custom port if you need at 11 loc of ./Api/index.js;
-5. Run `npm i` inside ./Api.
+5. Run `npm i` inside ./Api;
+6. Set the `./Apin/bin` scripts as executables. In unix it is `chmod+x <file>`.
 
 ## Running
 
