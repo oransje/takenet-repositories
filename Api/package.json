@@ -1,0 +1,21 @@
+{
+  "name": "last-repo-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/run.sh",
+    "watch": "./bin/watch.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.12.4",
+    "fastify": "^5.2.0",
+    "fastify-plugin": "^5.0.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "pino-pretty": "^13.0.0"
+  }
+}
